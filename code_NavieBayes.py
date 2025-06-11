@@ -2,7 +2,7 @@
 import pandas as pd
 
 # đọc dữ liệu từ file
-df = pd.read_csv('data_rain.csv')
+df = pd.read_csv('data_NavieBayes.csv')
 
 # ánh xạ tiếng Việt
 temp_vn = {'Hot': 'nóng', 'Cold': 'lạnh', 'Cool': 'mát'}
